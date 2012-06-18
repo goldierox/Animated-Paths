@@ -19,6 +19,7 @@
 		5D25558C12B0333A00CD35DB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D25558B12B0333A00CD35DB /* CoreText.framework */; };
 		5D8178E512BBD52D0047BE02 /* noun_project_347_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8178E412BBD52D0047BE02 /* noun_project_347_2.png */; };
 		5D8178E712BBD5440047BE02 /* Pen Drawing License Screen shot 2010-12-09 at 13.01.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8178E612BBD5440047BE02 /* Pen Drawing License Screen shot 2010-12-09 at 13.01.12.png */; };
+		E322910B158EB3B5008113FE /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E322910A158EB3B5008113FE /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		5D8178E412BBD52D0047BE02 /* noun_project_347_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_project_347_2.png; sourceTree = "<group>"; };
 		5D8178E612BBD5440047BE02 /* Pen Drawing License Screen shot 2010-12-09 at 13.01.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pen Drawing License Screen shot 2010-12-09 at 13.01.12.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AnimatedPaths-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AnimatedPaths-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E3229109158EB3B5008113FE /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		E322910A158EB3B5008113FE /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				1D3623250D0F684500981E51 /* AnimatedPathAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* AnimatedPathViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* AnimatedPathViewController.m */,
+				E3229109158EB3B5008113FE /* DrawingView.h */,
+				E322910A158EB3B5008113FE /* DrawingView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AnimatedPathAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* AnimatedPathViewController.m in Sources */,
+				E322910B158EB3B5008113FE /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,22 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "DrawingView.h"
 
+@interface AnimatedPathViewController : UIViewController<DrawingViewDelegate>
 
-
-@interface AnimatedPathViewController : UIViewController 
-{
-	CALayer *_animationLayer;
-    CAShapeLayer *_pathLayer;
-    CALayer *_penLayer;
-}
-
-@property (nonatomic, retain) CALayer *animationLayer;
-@property (nonatomic, retain) CAShapeLayer *pathLayer;
-@property (nonatomic, retain) CALayer *penLayer;
+@property (nonatomic, readonly) DrawingView *drawingView;
+@property (nonatomic, retain, readonly) NSMutableArray *brushPaths;
 
 - (IBAction) replayButtonTapped:(id)sender;
-- (IBAction) drawingTypeSelectorTapped:(id)sender;
+- (IBAction) clearCanvas:(id)sender;
 
 @end
 
